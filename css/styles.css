@@ -83,6 +83,7 @@ body {
   color: var(--primary-white-color);
 }
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -159,13 +160,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 .address > .link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
+}
+.address .footer-link {
+  font-weight: inherit;
+  color: rgba(255, 255, 255, 0.6);
 }
 .address .link:hover,
 .address .link:focus {
@@ -174,12 +178,13 @@ body {
 
 /* portfolio page */
 .projects-button {
-  background: #f5f4fa;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  background: #f5f4fa;
   cursor: pointer;
 }
 .projects-button:hover,
