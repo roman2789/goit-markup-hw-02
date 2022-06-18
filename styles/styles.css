@@ -9,6 +9,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #ffffff;
+  color: var(--title-text-color);
 }
 
 .item {
@@ -17,13 +18,6 @@ body {
 
 .link {
   text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.btn {
 }
 
 .features-title,
@@ -50,15 +44,21 @@ body {
 }
 
 .header-list .link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
   color: var(--title-text-color);
+  text-decoration: none;
 }
 
 .contacts .link {
-  color: var(--descr-text-color);
-}
-
-.contacts .link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-weight: 500;
   color: #757575;
+  text-decoration: none;
 }
 .header-list .link:hover,
 .header-list .link:focus,
@@ -101,7 +101,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 
 .features .descr {
@@ -120,7 +119,6 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 
 /* team */
@@ -134,17 +132,14 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .team .name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
 }
 .team .descr {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -160,17 +155,13 @@ body {
   color: var(--primary-white-color);
 }
 .footer .address {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .address > .link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -189,7 +180,6 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
   cursor: pointer;
 }
 .projects-button:hover,
@@ -206,7 +196,6 @@ body {
   color: var(--title-text-color);
 }
 .projects-list .descr {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
